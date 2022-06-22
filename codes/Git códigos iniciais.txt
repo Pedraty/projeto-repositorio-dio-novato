@@ -1,0 +1,10 @@
+Git Códigos Iniciais
+
+- cd : Navega para o diretório especificado
+- ls : Tem como objetivo listar todas as pastas no diretório especificado
+- mkdir : Cria novo diretório
+- rmdir : Remove o diretório
+- ctrl + l : limpa a tela
+
+
+

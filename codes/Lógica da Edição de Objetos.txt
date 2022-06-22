@@ -1,0 +1,28 @@
+Vamos lidar com 3 tipos de arquivos: Unmodified, Modified e Staged.
+
+    Se adicionarmos um arquivo ele irá para o Staged (Bastidores)
+	(Antes de adicionar um arquivo o git não o rastreia.)
+    Quando editamos um arquivo existente ele vira Modified
+	(Se excluímos esse arquivo o git não o rastreará)
+    Depois de modificar o arquivo, temos que mandá-lo para o Staged
+
+    O processo de salvar se chama Commit, o que "tira uma foto" de 
+    todos envolvidos nesse projeto. É importante que o título do commit
+    seja específico referente a sua alteração no projeto.
+
+
+_______________________________________________________________________________
+
+
+> Primeiro começamos com a criação de um arquivo
+> Depois de terminar o arquivo adicione-o no 
+  diretório com "git add <titulo-do-arquivo>" ou "git add *"
+> Commit (legendar) como o que você fez
+
+No terminal do GitBash ficará assim:
+
+> (cria arquivo)
+> git add arquivo
+> git commit -m "Criei um novo arquivo"
+
+Use "git status" para certificar-se de que não há nada pendente para ser salvo>
